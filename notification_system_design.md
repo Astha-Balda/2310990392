@@ -166,3 +166,6 @@ To maintain a "Priority Inbox," I implemented a weighted sorting algorithm. Each
 In a production environment where notifications keep coming in, sorting the entire list every time is inefficient. To maintain the "Top 10" efficiently:
 1. **Min-Heap Data Structure:** We can use a Min-Heap of size 10. When a new notification arrives, we compare it with the lowest priority item in the heap. If the new one is higher, we replace the root and heapify. This keeps complexity at $O(log 10)$.
 2. **Real-time Updates:** The frontend should maintain this heap locally to update the UI instantly without re-fetching the entire list.
+
+![alt text](image.png)
+![alt text](image-1.png)

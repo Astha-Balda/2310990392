@@ -1,4 +1,4 @@
-const axios = require('axios'); // You may need to run 'npm install axios'
+const axios = require('axios');
 
 const API_URL = "http://20.207.122.201/evaluation-service/notifications";
 
